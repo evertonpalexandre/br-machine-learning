@@ -1,23 +1,25 @@
 # Nanodegree Engenheiro de Machine Learning
 ## Proposta de projeto final
-Joe Udacity  
-31 de dezembro de 2050
+Everton Alexandre
+08 de abril de 2018
 
 ## Proposta
-_(aprox. 2-3 páginas)_
 
 ### Histórico do assunto
 _(aprox. 1-2 parágrafos)_
 
-Nesta seção, dê informações básicas sobre o assunto no qual o projeto está inserido. Informações históricas relevantes ao projeto devem ser incluídas. Deve estar claro como e por qual motivo um problema deste assunto pode ou deve ser resolvido. Pesquisas acadêmicas relacionadas devem ser citadas de forma adequada nesta seção, incluindo o porquê da pesquisa ser relevante. Encorajamos que seja mencionada qual foi a motivação pessoal do aluno para que ele realizasse a investigação de determinado problema nesse domínio, porém, isso não é obrigatório.
+O presente artigo descreve de forma sucinta a proposta de trabalho final do grupo Nanodegree Engenheiro de Machine Learning. O assunto escolhido para este trabalho está relacionado com a utilização de Machine Learning para a previsão do preço no mercado de ações. Fundos de investimento e bancos tem usado técnicas de aprendizado de máquina de forma a ter um entendimento melhor sobre o comportamento do mercado financeiro. Existem muitas API's que fornecem dados históricos sobre este tema. Além disso, tenho negociado no mercado de ações e mercado futuro há mais de 5 anos, fato que me motivou a escolher este tema para o projeto final sobre Machine Learning.
 
 ### Descrição do problema
 _(aprox. 1 parágrafo)_
 
-Nesta seção, descreva claramente o problema a ser resolvido. O problema descrito deve ser bem definido e ter pelo menos uma solução possível. Descreva o problema detalhadamente, de forma que fique claro que o problema é quantificável (pode ser expresso em termos matemáticos ou lógicos), mensurável (pode ser medido por uma métrica e claramente observado), e replicável (pode ser reproduzido e ocorre mais de uma vez).
+O mercado de ações no Brasil movimenta bilhões de reais todos os dias. Milhões de negocios são fechados a cada dia. O nosso objetivo nesse trabalho será prever o comportamento dos preços das ações do mercado financeiro brasileiro. Como dados de entrada serão utilizados os preços de abertura, máxima, mínima, fechamento e volume negociado.
 
 ### Conjuntos de dados e entradas
 _(aprox. 2-3 parágrafos)_
+
+Para este trabalho serão utilizados os dados do Google Finance, pois é uma ferramenta livre, ou seja, qualquer indivíduo pode entrar no Google Finance e obter dados históricos da Bovespa.
+
 
 Nesta seção, o(s) conjunto(s) de dados e/ou entrada(s) considerado(s) para o projeto deve(m) ser descrito(s) detalhadamente, bem como a forma como ele(s) está(ão) relacionado(s) ao problema e por que deverá(ão) ser utilizado(s). Informações tais como a forma de obtenção do conjunto de dados ou entrada e as características do conjunto de dados ou entrada devem ser incluídas com referências relevantes e citações, conforme o necessário. Deve estar claro como o(s) conjunto(s) de dados ou entrada(s) será(ão) utilizado(s) no projeto e se o uso dele(s) é apropriado, dado o contexto do problema.
 
