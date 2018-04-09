@@ -6,25 +6,23 @@ Everton Alexandre
 ## Proposta
 
 ### Histórico do assunto
-_(aprox. 1-2 parágrafos)_
 
 O presente artigo descreve de forma sucinta a proposta de trabalho final do grupo Nanodegree Engenheiro de Machine Learning. O assunto escolhido para este trabalho está relacionado com a utilização de Machine Learning para a previsão do preço no mercado de ações. Fundos de investimento e bancos tem usado técnicas de aprendizado de máquina de forma a ter um entendimento melhor sobre o comportamento do mercado financeiro. Existem muitas API's que fornecem dados históricos sobre este tema. Além disso, tenho negociado no mercado de ações e mercado futuro há mais de 5 anos, fato que me motivou a escolher este tema para o projeto final sobre Machine Learning.
 
 ### Descrição do problema
-_(aprox. 1 parágrafo)_
 
 O mercado de ações no Brasil movimenta bilhões de reais todos os dias. Milhões de negocios são fechados a cada dia. O nosso objetivo nesse trabalho será prever o comportamento dos preços das ações do mercado financeiro brasileiro. Como dados de entrada serão utilizados os preços de abertura, máxima, mínima, fechamento e volume negociado.
 
 ### Conjuntos de dados e entradas
-_(aprox. 2-3 parágrafos)_
 
 Para este trabalho serão utilizados os dados do Google Finance, pois é uma ferramenta livre, ou seja, qualquer indivíduo pode entrar no Google Finance e obter dados históricos da Bovespa.
-
-
-Nesta seção, o(s) conjunto(s) de dados e/ou entrada(s) considerado(s) para o projeto deve(m) ser descrito(s) detalhadamente, bem como a forma como ele(s) está(ão) relacionado(s) ao problema e por que deverá(ão) ser utilizado(s). Informações tais como a forma de obtenção do conjunto de dados ou entrada e as características do conjunto de dados ou entrada devem ser incluídas com referências relevantes e citações, conforme o necessário. Deve estar claro como o(s) conjunto(s) de dados ou entrada(s) será(ão) utilizado(s) no projeto e se o uso dele(s) é apropriado, dado o contexto do problema.
+Será utilizado como dados de entrada o preço de abertura da ação, o preço máximo no dia, o preço mínimo no dia, o preço de fechamento, o volume financeiro negociado no dia e a data. Será utilizado o horizonte de tempo diário. Ou seja, cada dia útil terá uma abertura, um fechamento, uma máxima, uma mínima e um dado volume financeiro. Será utilizado dados históricos de 7 anos aproximadamente. O objetivo é, através dos dados de entrada anteriormente citados, realizar uma previsão no preço do próximo dia.
 
 ### Descrição da solução
 _(aprox. 1 parágrafo)_
+
+
+Basicamente, realizaremos a previsão do preço de fechamento da ação, ou seja, o fechamento será a variável alvo e 
 
 Nesta seção, descreva claramente uma solução para o problema. A solução deve ser relevante ao assunto do projeto e adequada ao(s) conjunto(s) ou entrada(s) proposto(s). Descreva a solução detalhadamente, de forma que fique claro que o problema é quantificável (a solução pode ser expressa em termos matemáticos ou lógicos), mensurável (a solução pode ser medida por uma métrica e claramente observada) e replicável (a solução pode ser reproduzida e ocorre mais de uma vez).
 
