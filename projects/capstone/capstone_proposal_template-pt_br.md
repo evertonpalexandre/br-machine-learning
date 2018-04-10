@@ -22,7 +22,7 @@ Será utilizado como dados de entrada o preço de abertura da ação, o preço m
 _(aprox. 1 parágrafo)_
 
 
-Basicamente, realizaremos a previsão do preço de fechamento da ação, ou seja, o fechamento será a variável alvo e 
+Basicamente, realizaremos a previsão do preço de fechamento da ação, ou seja, o fechamento será a variável alvo e o preço de abertura, preço máximo, preço mínimo e volume serão os dados de entrada. Portanto, 
 
 Nesta seção, descreva claramente uma solução para o problema. A solução deve ser relevante ao assunto do projeto e adequada ao(s) conjunto(s) ou entrada(s) proposto(s). Descreva a solução detalhadamente, de forma que fique claro que o problema é quantificável (a solução pode ser expressa em termos matemáticos ou lógicos), mensurável (a solução pode ser medida por uma métrica e claramente observada) e replicável (a solução pode ser reproduzida e ocorre mais de uma vez).
 
