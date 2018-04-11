@@ -21,10 +21,9 @@ Será utilizado como dados de entrada o preço de abertura da ação, o preço m
 ### Descrição da solução
 _(aprox. 1 parágrafo)_
 
-
-Basicamente, realizaremos a previsão do preço de fechamento da ação, ou seja, o fechamento será a variável alvo e o preço de abertura, preço máximo, preço mínimo e volume serão os dados de entrada. Portanto, 
-
-Nesta seção, descreva claramente uma solução para o problema. A solução deve ser relevante ao assunto do projeto e adequada ao(s) conjunto(s) ou entrada(s) proposto(s). Descreva a solução detalhadamente, de forma que fique claro que o problema é quantificável (a solução pode ser expressa em termos matemáticos ou lógicos), mensurável (a solução pode ser medida por uma métrica e claramente observada) e replicável (a solução pode ser reproduzida e ocorre mais de uma vez).
+Tentar prever o mercado de ações é uma perspectiva atraente para os cientistas de dados, motivados não apenas pelo desejo de ganho material, mas pelo desafio. Vemos os altos e baixos diários do mercado e imaginamos que deve haver padrões. Este contexto me motivou a utilizar uma solução de Machine Learning aplicada ao mercado financeiro.
+Basicamente, realizaremos a previsão do preço de fechamento da ação, ou seja, o fechamento será a variável alvo e o preço de abertura, preço máximo, preço mínimo e volume serão os dados de entrada.
+Primeiramente iremos obter os dados utilizando a ferramenta Google Finance. Será analisado um horizonte de 9 a 10 anos. Após, iremos realizar a manipulação dos dados através da biblioteca Pandas e Numpy. Nesta etapa será realizada a preparação dos dados, identificação dos atributos e variáveis alvo. Após, utilizaremos a bibliteca sklearn.cross_validation para separação dos dados em treinamento e teste. Cerca de 75% dos dados serão utilizados para treinamento e 25% para teste. Em seguida, será o momento de realizar a escolha do modelo e realizar treinamento e testes. Após escolher o melhor modelo será o momento que realizar os ajustes finos no modelo, configurando e calibrando os parâmetros. Por fim, utilizaremos sklearn.metrics para verificar a pontuação do modelo no treinamento e teste. 
 
 ### Modelo de referência (benchmark)
 _(aproximadamente 1-2 parágrafos)_
@@ -34,7 +33,7 @@ Nesta seção, forneça os detalhes de um modelo ou resultado de referência que
 ### Métricas de avaliação
 _(aprox. 1-2 parágrafos)_
 
-Nesta seção, proponha ao menos uma métrica de avaliação que pode ser usada para quantificar o desempenho tanto do modelo de benchmark como do modelo de solução apresentados. A(s) métrica(s) de avaliação proposta(s) deve(m) ser adequada(s), considerando o contexto dos dados, da definição do problema e da solução pretendida. Descreva como a(s) métrica(s) de avaliação pode(m) ser obtida(s) e forneça um exemplo de representação matemática para ela(s) (se aplicável). Métricas de avaliação complexas devem ser claramente definidas e quantificáveis (podem ser expressas em termos matemáticos ou lógicos)
+Como, na minha concepção, estamos tratando de um problema de regressão e não de classificação o modelo não irá acertar a previsão no número exato. Ou seja, provavelmente o número previsto não será o número real. Entretanto, o que se espera desse modelo é que apresente uma taxa de erro baixa. Dessa forma, iremos utilizar como métrica o "Root Mean Square Error". Para maiores detalhes sobre essa métrica podemos acessar o seguinte link: https://en.wikipedia.org/wiki/Root-mean-square_deviation.
 
 ### Design do projeto
 _(aprox. 1 página)_
